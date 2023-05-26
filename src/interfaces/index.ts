@@ -19,6 +19,7 @@ export interface FetchGamesResponse {
 export interface Genres {
   id: number;
   name: string;
+  image_background: string;
 }
 
 export interface FetchGenresResponse {
