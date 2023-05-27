@@ -1,4 +1,4 @@
-import { Game, GameQuery, Genres, Platform } from "../interfaces";
+import { Game, GameQuery } from "../interfaces";
 import useData from "./useData";
 
 const useGames = (

@@ -3,7 +3,7 @@ import { NavBar } from "./components/NavBar";
 import GameGrid from "./components/GameGrid";
 import GenreList from "./components/GenreList";
 import { useState } from "react";
-import { GameQuery, Genres, Platform } from "./interfaces";
+import { GameQuery } from "./interfaces";
 import PlatformSelector from "./components/PlatformSelector";
 
 
