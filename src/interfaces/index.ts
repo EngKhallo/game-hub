@@ -32,3 +32,8 @@ export interface Platform {
   name: string;
   slug: string;
 }
+
+export interface GameQuery {
+  genre: Genres | null;
+  platform: Platform | null;
+}
